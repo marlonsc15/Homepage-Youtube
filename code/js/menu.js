@@ -1,10 +1,10 @@
-// Closes the sidebar menu
+// Fechar a sidebar menu
 $("#menu-close").click(function(e) {
     e.preventDefault();
     $("#sidebar-wrapper").toggleClass("active");
 });
 
-// Opens the sidebar menu
+// Abrir a sidebar menu
 $("#menu-toggle").click(function(e) {
     e.preventDefault();
     $("#sidebar-wrapper").toggleClass("active");
